@@ -10,8 +10,8 @@ import { getServerSideConfig } from "./config/server";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "白白的ChatGPT",
+  description: "采用openai官方key进行对接，与网页版无异，仅可使用gpt3.5版本。",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "NextChat",
+    title: "白白的ChatGPT",
     statusBarStyle: "default",
   },
 };
